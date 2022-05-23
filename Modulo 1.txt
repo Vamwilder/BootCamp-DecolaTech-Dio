@@ -1,0 +1,60 @@
+Pensamento Computacional
+    Habilidades complementares
+        Raciocínio lógico
+            É uma forma de pensmento estruturado, ou raciocio que permite encontrar a conclusão ou determinar a solução de um problema
+            Classificação: 
+            * Indução observação,   induz que algo acontece através de observação
+            * Dedução,              Trabalho inverso da indução, utiliza leis e teorias,
+            * Abdução,              Apartir de algo observado supões outra coisa, ex: Grama molhada = Logo deve ter chovido, 
+                                    Muito utilizado no Processo investigativo, Diagnostico
+
+            Inferência
+            * Sintética
+                Abdução
+                Indução
+            * Analítica
+                Dedução
+            
+        Aperfeiçoamento
+            Melhoramento
+            Ato de aperfeiçoar
+                * Encontrar solução eficiente
+                * Otimizar Processos
+                * Simplificar linhas de código
+                * Funções bem definidas
+            Aprimoramento
+            Refinamento
+            
+            A partir de uma solução determinar pontos de melhora e refinamento
+
+    Pilares: Decomposição
+        Se você tem um grande problema que você não consegue resolver, tem algum problema mais facil que você consegue resolver
+        Dividir o problema em problemas menores
+        Análise
+            Quebrar o problema em partes menores
+            Estudar, explorar
+            Realizar exame detalhado
+            Decompor em elementos constituintes
+        Síntese
+            Combina os elementos
+            Recompondo o problema original
+            Processo de reconstrução
+            Fundir os elementos de maneira coerente
+        Variaveis
+        Pequenos problemas
+        Segmentação
+        Não basta entender
+        Deve Desenvolver a decomposição "by yourself"
+            Maneiras distintas de decompor o mesmo problema
+        Como decompor
+            Identificar ou coletar dados
+            Agragar os dados
+            Funcionalidades
+        Exemplo: Criar um app
+            Funcionalidades
+            Interface
+            Funcionalidades
+            Pre-requisitos
+
+Criando seu primeiro repositório no github para compartilhar seu rogresso
+    
