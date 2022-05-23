@@ -1,4 +1,22 @@
 Primeiros passos para desenvolvimento web
     Introdução à programação para internet
         O que é internet
-            
+            Começou em 1969. EUA. Arpanet. Departamento de Defesa. Guerra fria. Interligar laboratórios. Primeiro e-mail
+            No Brasil: 1988. FAPESP, UFRJ, LNCC.
+            1994 Embratel abril para uso comercial
+
+            Termos-chave: 
+            Cache:      arquivos salvos termporariamente no computador
+            crack:      Inserir uma chave falsa a um software
+            host:       Servidor
+            HTML:       Linguagem de marcação
+            HTTP:       Protocolo utilizado pela internet
+            link:       Ligação
+            URL:        Endereço,
+            spam:       Presunto: conteúdo desnecessário
+            keylogger:  Software para armazenar oque é digitado no teclado
+            backup:     Armazenar arquivos para eventuais problemas
+            vlog:       Video Log, vem do blog,
+            cookies:    Registros de nossas atividades, deichadas em nosso pc 
+            fake news:  Noticias falsas
+            pop-up:     Mensagens chatas na page
