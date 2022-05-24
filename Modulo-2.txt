@@ -72,3 +72,24 @@ Primeiros passos para desenvolvimento web
 
                 Switch: Distribui para um ou mai dispositivos de uma maneira inteligente, enviando os arquivos
                 Somente para quem solicitou
+
+Introdução criacao de websites com HTML5
+    Introdução ao curso de HTML
+        Estrutura básica
+            HTML1, foi criado pelo TIm Berners-Lee 1991.
+            HTML5, 2014
+            Tudo dentro do arquivo HTML é um elemento
+            Criando estrutura básica para site
+            
+    Entendendo oque é semântica
+        Semântica - parte 1
+            Por muitos anos foi apenas DIV, no HTML5 trouxe mais elementos para trazer mais significado
+            <section>   Sessão genérica de arquivos, como uma lista de artigos
+            <header>    Cabeçalho da página, ou parte da página
+            <article>   Representa um conteudo relevante da sua página
+            <aside>     Representa um conteudo relacionado ao conteudo principal da page
+            <footer>    Rodapé da página, ou parte da página
+            <h1>-<h6>   Representam a importância de um titulo, dentro de uma page
+
+        Semântica- parte 2
+            Aplicando no HTML
