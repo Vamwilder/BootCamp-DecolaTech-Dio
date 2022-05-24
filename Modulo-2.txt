@@ -24,3 +24,51 @@ Primeiros passos para desenvolvimento web
             A internet Atualmente
             75% dos habitantes Brasileiros tem acesso à internet
             
+        Como funciona a internet
+            Oque são redes, vários computadores conectados uns com os outros, formando uma especie de rede 
+            Espinha dorsal: Backbone, 
+            WWW: Linguagem para Humanos
+            DNS: código da máquina, que armazena o endereçamento de todos os sites ip
+            127.0.0.1: Local Host, Endereço do meu computador local
+            Fazendo teste de ping pelo DOS, ele irá mostrar o endereço IP que está sendo pingado
+
+        TCP/IP, portas, roteadores, switches e modems
+            TCP/IP: Transmission COntrol Protocol, Internet Protocol
+            4 Camadas
+            1 Fisica        (Placa de rede)
+            2 Rede          (IP)
+            3 Transporte    (TCP, UDP)
+            4 Aplicação     ( FTP, SMTP, HTTP)
+
+            * UDP
+                Rápido
+                Não confiavel
+                Carro do ovo, Carro do ovo esta transmitindo, mas não sabe se você está escutando
+                (Sem checagem de recebimento, por isso é mais rápido)
+                LiveStream
+            * TCP
+                Voltado à conexões
+                Handshake (Aperto de mãos)
+                Integridade, ordem dos dados, faz checagem de recebimento,
+                Caso não receba, envia novamente os arquivos,
+                Por isso é mais lenta, porém, mais confiavel 
+                Aplicativo de mensagens de texto (É necesário serem enviadas em ordem)
+
+            Portas (Ports)
+                As "portas" por onde dados sairão e chegarão
+                20: FTP
+                22: SSH 
+                25: SMTP 
+                53: DNS 
+                80: HTTP
+                443: HTTPS
+
+            Roteadores, switches e modems
+                Modem: Modulator - Demodulator
+                Aparelho que modula e demodula sinais
+
+                Roteador: Aparelho que tem a função de distribuir internet para um ou mais dispositivos,
+                Ele tambem pode ser "Burro", enviando os dados para todo mundo, até o dono pegar
+
+                Switch: Distribui para um ou mai dispositivos de uma maneira inteligente, enviando os arquivos
+                Somente para quem solicitou
