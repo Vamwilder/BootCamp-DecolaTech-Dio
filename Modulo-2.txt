@@ -20,3 +20,7 @@ Primeiros passos para desenvolvimento web
             cookies:    Registros de nossas atividades, deichadas em nosso pc 
             fake news:  Noticias falsas
             pop-up:     Mensagens chatas na page
+
+            A internet Atualmente
+            75% dos habitantes Brasileiros tem acesso à internet
+            
