@@ -93,3 +93,29 @@ Introdução criacao de websites com HTML5
 
         Semântica- parte 2
             Aplicando no HTML
+
+    Como usar textos e links em HTML
+        tags para textos
+            <p> Paragrafo, que tambem podemos adicionar fotos videos, e vários outros conteudos
+
+        tags para links
+            <a> Ancora, interliga varios conteudos na web
+            <a href="linkedin.com"> Linkedin    </a>
+                Ancora para onde meu link esta apontadno
+            <a href="mailto:kiamdemouralechinovski@hotmail.com">    Meu E-mail  </a>
+                Sempre que for link para e-mail, utilizar mailto
+            <a target="_blank"> Link    </a>
+                target indica como este link será aberto
+                _blank diz para o navegador abrir este link em uma nova aba
+                se não colocar esta informação, o link será aberto na mesma aba que está
+
+        Exercicio prático
+        
+    Como inserir imagens em seu site
+        tag img 
+            tag img não precisa ser fechada
+            <img>
+            <img src="img/avatar.jpg">              // src é obrigatório, indica o caminho da sua imagem
+            <img alt="Foto de uma pessoa">          // alt não é obrigatório, mas é boa prática, pois mostra informações daquela imagem
+
+        Exercicio prático
