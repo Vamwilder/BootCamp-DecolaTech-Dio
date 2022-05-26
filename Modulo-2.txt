@@ -119,3 +119,11 @@ Introdução criacao de websites com HTML5
             <img alt="Foto de uma pessoa">          // alt não é obrigatório, mas é boa prática, pois mostra informações daquela imagem
 
         Exercicio prático
+
+    Como organizar listas com HTML
+        Tags li, ul e ol
+            <ul>        Representa uma lista em que a ordem dos itens, não é importante
+            <ol>        A ordem dos itens é importante
+            <li>        item desta lista
+
+        Exercicio prático
