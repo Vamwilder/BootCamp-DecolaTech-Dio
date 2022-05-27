@@ -127,3 +127,49 @@ Introdução criacao de websites com HTML5
             <li>        item desta lista
 
         Exercicio prático
+
+    Introdução e conceitos básicos do CSS3
+        Introdução ao CSS3
+            Utilizada para formatar a página HTML
+            Utilizamos id e classes para formatar itens especificos
+            .header = class
+            #header = id            // ID, pode ser utilizada apenas uma vez na página
+
+        Conceitos básicos
+            HTML interpreta cada elemento como uma caixa retângular, a qual vamos estilizar com CSS3
+            Nela contem na ordem:
+                Margin      = Espaçamentos entre elementos, podemos definir a distância que estará de outro item
+                border      = Circula padding e content, e podemos alterar a aparência delas, como largura e cor
+                padding     = Espaçamento entre a borda e conteúdo
+                Content     = Conteudo, texto imagem ou video
+
+    Estilizando elementos, textos e listas
+        Estilizando elementos
+            padding: 10px 5px;              // 10px eixo y, 5px eixo x
+            padding: 15px 10px 5px 0px      // 15px para topo, 10px direita, 5px botton, 0 para esquerdo
+                                            // Quando temos valor 0, não precisamos digitar
+            background-color:               // Cor de fundo
+            background-image:               // Colocar imagem de fundo
+            background-position             // Top, posicionamento da imagem
+
+            border:     Pode conter largura, estilo ecor 
+            border-width:                   // Largura da borda
+            border-color                    // Cor da borda
+            border-style                    // Estilo da borda
+            border-radius                   // Permite arredondar os cantos do elemento
+
+        Estilizando Textos
+            font-family                     // ALtera fonte do nosso texto
+            font-size                       // Altera o tamanho do elemento
+            font-style                      // Aparencia do texto, normal, italic, 
+            font-weight                     // peso do texto, normal, bold = Negrito
+            text-transform                  // Altera entre maiuscula e minuscula, 
+            text-decoration                 // Da destaque ao texto, com line em cima e embaixo
+
+        Estilizando listas
+            Alterar o marcador das listas
+            list-style-type:
+                square                      // Quadrado
+                upper-roman                 // Algarismo romano maiusculo
+                \1F44D                      // Simbolo, joinha
+                url("img/1.png");           // Colocamos imagem no local do marcador            
