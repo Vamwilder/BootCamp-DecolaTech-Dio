@@ -1,13 +1,15 @@
 body {
     background-color: #ccc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
 }
 
 #foto {
     border: 1px solid #505050;
     border-radius: 50%;
     max-width: 300px;
-    max-height: 300px;
+    max-height: 200px;
 }
 
 #titulo, .subtiTulo, .postTitulo {
@@ -43,11 +45,13 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_img {
     margin-bottom: 15px;
     max-width: 1000px;
+    width: 100%;
 }
 
 .contact_list {

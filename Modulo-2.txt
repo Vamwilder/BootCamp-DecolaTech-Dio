@@ -172,4 +172,15 @@ Introdução criacao de websites com HTML5
                 square                      // Quadrado
                 upper-roman                 // Algarismo romano maiusculo
                 \1F44D                      // Simbolo, joinha
-                url("img/1.png");           // Colocamos imagem no local do marcador            
+                url("img/1.png");           // Colocamos imagem no local do marcador          
+                
+        Dimensão e alinhamento
+            Propriedades de dimensões e alinhamentos
+                width                       // Largura, podemos usar px ou %,
+                Height                      // Altura,  podemos usar px ou %,
+                max-width                   // Maxima largura
+                max-Height                  // Maxima Altura
+                Margin                      // Coloca espaçamento entre elementos, com valor auto, alinha elementos
+                text align                  // Alinha textos
+
+                Exercicio
