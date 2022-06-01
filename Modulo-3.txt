@@ -11,3 +11,64 @@ Instalando o VSCode
         CTRL + Seta direita ou esquerda        // Consegue dar ou tirar tab
         Com ALT e clicando na tela, coloco cursores em vários lugares
         CTRL + P,           // Pesquisa de arquivos
+
+    Extensões e temas
+        Posso pesquisar e instalar novas Extensões, que mudam estética, até inspetores de código
+        
+    Terminal e Git
+        Podemos usar o comando CODE, para abrir projetos
+
+Introdução ao JavaScript
+    Apresentação do curso
+        Estefani, análise em desenvolvimento de sistemas
+        Entender o que é JavaScript, sua saplicações na vida real e conhecer o Mercado de Trabalho
+        Aula1: Oque é JavaScript
+        Aula2: Recursos básicos
+        Aula3: Console
+        Aula4: Interação com Página HTML
+        Aula5: Atividade Prática
+        Aula6: Framework e mercado de Trabalho
+
+    História, Evolução e aplicação
+        Linguagem Interpretada, Está sendo rodada em tempo real, não precisou ser transformada em outra coisa
+        Client-side, linguagem da web, estará ao lado do cliente, 
+        Segue o Padrão ECMAScript, Padrão para várias linguagens
+
+        Evolução:
+        1995: Foi Criado
+        1997: Primeira edição
+        1998: 
+        1999: Try/Catch
+        2009: JSON Suporte, Array.isArray(), Array Iteration Methods
+
+        Aplicações:
+        * Web.                  É a linguagem da web
+        * Mobile.               Podemos fazer com React Native
+        * Smartwatches          Utilizando NodeJS, podemos criar Aplicações
+        * Games
+        * Internet of Things
+        * APIs 
+
+    Manipulando um arquivo
+        // Maneira de comentar no JS
+        /*
+        Maneira de comentar várias linhas
+        */
+        CTRL + /                                            // COmenta automático
+        Variaveis podem alterar o valor durante o código    // var
+        constantes não podem                                // const
+
+    Funções
+        function soma () { }
+
+    Console
+        Executando um arquivo.js
+            Console em uma página web
+            Instalando NodeJS
+
+    4. JavaScript em uma página da web
+        Estrutura de projeto 
+            Aprender a interagir com elementos HTML no DOM 
+            Criando pasta assets, para confortar a pasta dos arquivos JS e CSS 
+
+        Inserindo javascript numa página HTML
