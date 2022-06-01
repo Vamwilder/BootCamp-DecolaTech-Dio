@@ -1,0 +1,13 @@
+Instalando o VSCode
+    Apresentação do curso
+    Instalação
+    Recursos básicos
+        Primeira aba, Explorer
+        Na Lupa pode dar replace em todos os arquivos que você quiser
+        COntrole de código fonte, faz integração com GitHub
+        Executar e depurar códigos
+        Extensões para o VSCode
+
+        CTRL + Seta direita ou esquerda        // Consegue dar ou tirar tab
+        Com ALT e clicando na tela, coloco cursores em vários lugares
+        CTRL + P,           // Pesquisa de arquivos
