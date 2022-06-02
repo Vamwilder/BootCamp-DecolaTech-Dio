@@ -72,3 +72,18 @@ Introdução ao JavaScript
             Criando pasta assets, para confortar a pasta dos arquivos JS e CSS 
 
         Inserindo javascript numa página HTML
+        Interagindo com os elementos do DOM
+
+
+    6. Mercado de Trabalho
+        Frameworks e bibliotecas
+            VueJS
+            React       // É uma biblioteca 
+            Angular
+            jQuery
+
+            Plugamos no nosso código, facilitando o dia de codar,
+
+Sintaxe básica em JavaScript
+    6. Funções e suas particularidades
+        
