@@ -84,6 +84,60 @@ Introdução ao JavaScript
 
             Plugamos no nosso código, facilitando o dia de codar,
 
-Sintaxe básica em JavaScript
-    6. Funções e suas particularidades
+    Sintaxe básica em JavaScript
+        6. Funções e suas particularidades
         
+    Variaveis e Tipos
+        Variaveis
+            Utilizar Camel Case para Variaveis
+            Upper Case Snake Case utilizar para constantes
+
+            var e let       // Valores dinâmicos
+            let             // Escopo de bloco, Só funciona dentro do bloco declarado
+            var             // Funciona a um escopo global
+
+Funções
+    1. Tipos de função
+        function nome(parametro) { 
+            // Instrução 
+            return;
+        }
+        Função anoninma:                    // Não tem nome, esta atrelada a uma variavel
+        const soma = function (a,b) {
+            return a + b;
+        }
+    
+    1. Função autoinvocável e Callbacks
+        IIFE 
+        (
+            function() {
+                let name = "Digital innovation One"
+                return name;
+            }
+        )();
+        Colocamos o bloco e função dentro de parentes
+        
+        Callbacks:
+        Função passada como argumento para outra função
+
+    2. Valores padrão e Objeto "arguments"
+        function exponencial(array, num = 1) {              // Igualando num = 1, dizemos que, se não for passado nenhum parâmetro, por padrão será 1
+            // Instrução
+        }
+
+        Objeto "arguments"
+        Um array com todos os parâmetros passados quando a função foi invocada
+
+    2. Arrays e Objetos
+        Arrays: 
+        Spread: Uma forma de lidar separadamente com os elementos de um array
+        rest: Combina os elementos em um array
+        Object Destructuring: Entre as {} Filtra apenas os dados que nos interessam em um objeto.
+
+    5. Sintaxe e outras restrições
+        Arrow function
+            const helloWorld = () => "helloWorld";
+            const soma = (a,b) => a + b;
+            Sendo assim, não precisamos escrever return nem as chaves, só pode utilizar quando o código só tem 1 linha.
+
+            This    // Sempre será da variavel global            
