@@ -140,4 +140,46 @@ Funções
             const soma = (a,b) => a + b;
             Sendo assim, não precisamos escrever return nem as chaves, só pode utilizar quando o código só tem 1 linha.
 
-            This    // Sempre será da variavel global            
+            This    // Sempre será da variavel global  
+
+Debugging e Error Handling
+    1. ECMAScript Error e Domexception
+        ECMAScript: 
+            Composto por
+            * Mensagem
+            * nome
+            * linha
+            * Call Stack
+        
+        Domexception:
+            Excessão, ou erro do DOM
+            
+    2. Tratando Erros
+        Throw, Try/Catch e FInally
+            Throw
+                Dentro de una funçao, ao invez de usar return, utilizo Throw, mostrando que é um erro.
+
+            Try/Catch
+                Com uma função, no bloco Try, verifica se por ex a String é Válida,
+                Catch, vai pegar este erro
+                e podemos tratar o erro, por Ex:
+                Catch(e) {
+                    console.log(e);
+                }
+                ou posso dar um throw, assim mostra a mensagem de erro
+
+            FInally
+                Instrução que será chamada independente de erro ou não
+
+    3. Criando Erros
+        O objeto Error
+            new Error(message, fileName, lineNumber)
+            // Podemos apresentar em um erro, mensagem, nome de um arquivo, e numero da linha
+            // Comumente utilizado apenas message
+
+            const meuErro = new Error("Mensagem Inválida");     // Armazenando o erro em uma variavel
+            throw meuErro;                                      // Jogando na tela o erro
+
+        Atividade Prática
+            O objetivo é que a função receba um array e retorne ele caso o seu tamanho corresponda ao 
+            número enviado como parâmetro na função
