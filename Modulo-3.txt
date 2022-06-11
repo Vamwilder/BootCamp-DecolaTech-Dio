@@ -191,3 +191,37 @@ Debugging e Error Handling
                 * Se o tamanho do array for diferente do número enviado como parâmetro, lance um erro do tipo RangeError
             * Utilize a declaração try...Catch
             * Filtre as chamadas de catch por cada tipo de erro utilizando o operador instanceof
+
+    1. Assincronicidade
+        Definições, Promises e Async/Await
+            Definição: Assincrono, é algo que não ocorre ou não se efetiva ao mesmo tempo
+            Promises: Objecto de proesssamento assíncrono
+                Inicialmente, seu valor é desconhecido. Ela pode, então, ser resolvida ou rejeitada.
+                Seu ingresso é uma promessa, quando chegar a data, você irá executar o seu ingresso, ou não.
+                tem 3 estados
+                    Pending, FUlfilled, Rejected
+                Estrutura:
+                const myPromise = new Promise((resolve, reject) => {        // Será resolvida após 2 mil segundos
+                    window.setTimeout(() => {
+                        resolve(console.log("Resolvida!"));
+                    }, 2000);
+                });
+            Async/Await
+                Funções assincronas precisam dessas duas palavras chave.
+                Palavra Await vai parar todo o código, para poder resolver o código assincrono
+
+    2. Consumindo APIs
+        O que sao APIs e Fetch
+            Application Programing Interface
+                Forma de intermediar os resultados do Back-End no Front-End
+                JSON é comum que APIs retornem seus dados no formato .json, portanto precisamos tratar esses dados quando os recebermos
+            Fetch
+                Vai receber URL e algumas opções que vamos passar para ele
+                fetch vai retornar uma promisse, podemos usar .then
+                Precisamos usar await quando formos usar o Fetch
+        Atividades práticas
+            Página que carrega fotos aleatórias de gatinhos
+                Nesta atividade, vamos criar uma página que carrega fotos aleatórias de gatinhos sempre que clicamos em um botão.
+
+                Utilize a API https://thatcopy.pw/catapi/rest para fazer as chamadas com o método fetch();
+                Utilize seus conhecimentos na manipulação do DOM para criar a imagem e ativar o evento de clique do botão!
