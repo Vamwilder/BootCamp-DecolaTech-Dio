@@ -225,3 +225,34 @@ Debugging e Error Handling
 
                 Utilize a API https://thatcopy.pw/catapi/rest para fazer as chamadas com o método fetch();
                 Utilize seus conhecimentos na manipulação do DOM para criar a imagem e ativar o evento de clique do botão!
+
+    Orientação a Objetos
+        1. Compreendendo Orientação a Objetos
+            Paradigmas da programação
+                Imperative: Foca em como vai resolver problemas
+                    Ex: Banco de dados SQL
+                Declarativo:    Oque vai fazer
+                Pilares 
+                    Herança         O objeto filho herda propriedades e métodos do objeto pai.
+                    Polimorfismo    Abstração, podemos herdar a mesma classe pai, mas se comportarem de forma diferente quando invocamos seus métodos
+                    Encapsulamento  Cada classe tem propriedades e métodos independente do restante do código
+                    Abstração       Simplificar e generalizar cada vez mais
+        2. Orientação a objetos em JavaScript
+            Protótipos e Classes
+                Protótipos
+                    Basicamente um esqueleto de todos os objetos (prototype)
+                    Qualquer tipo de herança é utilizada com Protótipos
+                    Método super(): Serve para utilizarmos o construtor da classe pai
+            Atividade práticas
+                Nesta atividade, vamos testar os conceitos de Orientação a Objetos simulando a criação de diversos tipos de contas bancárias e
+                operações disponíveis em cada uma.
+                
+                    Crie a classe ContaBancaria, que possui os parâmetros agencia, numero, tipo e saldo;
+                    Dentro de ContaBancaria, construa o getter e o setter de saldo;
+                    Dentro de ContaBancaria, crie os métodos sacar e depositar;
+                    Crie uma classe-filha chamada ContaCorrente que herda todos esses parâmetros e ainda possua o parâmetro cartaoCredito;
+                    Ainda em ContaCorrente, construa o getter e o setter de cartaoCredito;
+                    Ainda em ContaCorrente, faça com que o tipo seja 'conta corrente' por padrão;
+                    Crie uma classe-filha chamada ContaPoupanca que herda todos os parâmetros de ContaBancaria;
+                    Crie uma classe-filha chamada ContaUniversitaria que herda todos os parâmetros de ContaBancaria;
+                    Faça com que o método saque de ContaUniversitaria apenas seja capaz de sacar valores menores que 500 reais.
