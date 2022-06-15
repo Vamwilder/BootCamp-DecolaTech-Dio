@@ -292,3 +292,31 @@ Debugging e Error Handling
             Colocando Estilo CSS de um elemento
                 document.getElementsByTagName("p").style.color = "blue";            // Seleciona todos os parágrafos, e coloca o stylo como azul
                 
+        4. Eventos
+            Tipos e acionando Eventos
+                Evento de mouse
+                    mouseover:  Quando estamos com o ponteiro em cima do item
+                    mouseout:   Quando tiramos o mouse de cima de algum item
+                    click:      Quando clicamos no item
+                    dbclick:    Quando damos o clique duplo no item
+                    change, load:   Eventos de atualização
+                Acionando Eventos
+                    const botao = document.getElementById("meuBotao");  // Importando o elemento do html com id de meubotao, armazenando em botao
+                    botao.addEventListener("click", outraFUncao);       // Nesta função, vai ficar "ouvindo" o botão, quando houver click, "executara outraFUncao"
+                Evento direto no HTML
+                    Eventos no HTML precisamos colocar o on, na frente do evento
+                    <h1 onclick="mudaTexto(this)">Clique aqui!</h1>     // h1 quando onclick "Houver click", executa a função mudaTexto(this) this este h1
+                    <script>
+                        function mudaTexto(id) {                        // função mudaTexto(informando o id)
+                            id.innerHTML="mudei";                       // Este ID será alterado para mudei
+                        }
+                    </script>
+
+            Atividade prática
+                Atividade: Light Mode/Dark Mode                    
+                    Crie uma estrutura básica de projeto front-end (HTML, CSS e JS)
+                    Copie o HTML e o CSS deste repositório
+                    Crie um arquivo chamado scripts.js na sua pasta assets/js
+                    Selecione os elementos: h1, button, footer e body
+                    Se os elementos possuirem a classe dark-mode, modifique seus estilos. Caso contrário, volte os estilos para o original
+
