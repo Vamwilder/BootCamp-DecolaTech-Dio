@@ -256,3 +256,39 @@ Debugging e Error Handling
                     Crie uma classe-filha chamada ContaPoupanca que herda todos os parâmetros de ContaBancaria;
                     Crie uma classe-filha chamada ContaUniversitaria que herda todos os parâmetros de ContaBancaria;
                     Faça com que o método saque de ContaUniversitaria apenas seja capaz de sacar valores menores que 500 reais.
+
+    Manipulando a D.O.M com JavaScript
+        1. Entendendo o D.O.M
+            DOM: DOcument Object Model
+                padrão de como acessa e modifica os elementos de uma página HTML
+            DOM vs BOM
+                BOM: Browser Object Model
+                    Tudo o que está dentro do Objeto window (Janela do navegador)
+                    Dentro do BOM, esta o DOM.
+
+        2. Selecionando elementos
+            Métodos
+                Página HTML é feita com uma série de tags 
+                id: algo único na página HTML, não pode se repetir
+                class: pode se usar várias vezes
+                Selecionando os elementos
+                    document.getElementById("Titulo");                              // Irei importar a tag que tem o id Titulo
+                    document.getElementsByTagName('li');                            // Irei importar as tags que tem li
+                    document.getElementsByClassName("textos");                      // Irei importar todas as tags com classe textos
+                    document.querySelectorAll(".primeira-classe .segunda-classe);   // Busca personalizada, buscando estas duas Classes
+                Adicionar e deletar métodos
+                    document.createElement(element);                                // Cria um novo elemento HTML
+                    document.removeChild(element);                                  // Remove um elemento, do elemento pai informado
+                    document.appendChild(element);                                  // Adiciona um elemento, do elemento pai informado
+                    document.replaceCHild(new, old);                                // Substitui um elemento, do elemento pai informado
+
+        3. Trabalhando com estilos
+            const meuElemento = document.getElementById("meu-eleento")              
+
+            meuElemento.classList.add("novo-estilo");                               // Adiciona a classe "meu-estilo"
+            meuElemento.classList.remove("classe");                                 // Remove a classe "classe"
+            meuElemento.classList.toggle("dar-mode");                               // Adiciona a classe "Dark-mode" caso ela não faça parte
+                                                                                    // da lista e remove ela caso faça.
+            Colocando Estilo CSS de um elemento
+                document.getElementsByTagName("p").style.color = "blue";            // Seleciona todos os parágrafos, e coloca o stylo como azul
+                
